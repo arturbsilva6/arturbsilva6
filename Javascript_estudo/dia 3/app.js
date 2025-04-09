@@ -16,9 +16,9 @@ else{console.log("Entrada negada")}
    
 */
 
-let nota = 8;
-const nomeAluno = "Ana";
 
+let nota = prompt("Digite sua nota")
+const nomeAluno = prompt("Digite o nome do aluno");
 
 if (nota >= 7){
     console.log(`${nomeAluno} foi aprovado(a)!`)
