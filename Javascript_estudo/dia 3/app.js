@@ -16,16 +16,16 @@ else{console.log("Entrada negada")}
    
 */
 
-let nota = 4;
+let nota = 8;
+const nomeAluno = "Ana";
 
 
 if (nota >= 7){
-
-    console.log("Aprovado!")
+    console.log(`${nomeAluno} foi aprovado(a)!`)
 }
 else if(nota >= 5 && nota < 7){
-    console.log("Recuperação!")
+    console.log(`${nomeAluno} ficou de recuperação!`)
 }
 else{
-    console.log("Reprovado!")
+     console.log(`${nomeAluno} foi reprovado(a)!`)
 }
