@@ -10,7 +10,7 @@ meusFilmesFavoritos.pop()*/
 
 let meusJogosFavoritos = ["Need for speed", "Forzan 2", "Elder Ring"];
 
-for( let i = 0; i < meusJogosFavoritos.lenght; i++){
+for( let i = 0; i < meusJogosFavoritos.length; i++){
     console.log(`Jogo 1 ${i+1}: ${meusJogosFavoritos[i]}`)
 }
 
