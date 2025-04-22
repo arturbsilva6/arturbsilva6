@@ -1,5 +1,7 @@
-/*let meusFilmesFavoritos = ["Rei leão", "Homem aranha", "Circulo de fogo"];
 
+//Entendendo FOR
+
+/*let meusFilmesFavoritos = ["Rei leão", "Homem aranha", "Circulo de fogo"];
 
 console.log(meusFilmesFavoritos[0]);
 console.log(meusFilmesFavoritos[2]);
@@ -17,7 +19,9 @@ for( let i = 0; i < meusJogosFavoritos.length; i++){
 console.log(`Voce tem ${meusJogosFavoritos.length} jogos na sua lista'`);*/
 
 
-let minhasComidasFavoritas = ["Lasanha", "Nhoque", "Pizza"];
+//For com função
+
+/*let minhasComidasFavoritas = ["Lasanha", "Nhoque", "Pizza"];
 
 function mostrarComidas(comidas){
     for (let i=0; i < comidas.length; i++){
@@ -26,4 +30,18 @@ function mostrarComidas(comidas){
     console.log(`Voce tem no total ${comidas.length} comidas favoritas`)
 }
 
-mostrarComidas(minhasComidasFavoritas);
+mostrarComidas(minhasComidasFavoritas);*/
+
+//includes
+
+let numeros = [1,23,31,4,54];
+
+console.log(numeros.includes(10));
+
+let numeroMaior15 = numeros.find( numero => numero.length > 15);
+
+console.log(numeroMaior15);
+
+let maior10 = numeros.filter(numero10 => numero10.length > 10);
+
+console.log(maior10);
