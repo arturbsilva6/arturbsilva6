@@ -38,10 +38,10 @@ let numeros = [1,23,31,4,54];
 
 console.log(numeros.includes(10));
 
-let numeroMaior15 = numeros.find( numero => numero.length > 15);
+let numeroMaior15 = numeros.find( numero => numero > 15);
 
 console.log(numeroMaior15);
 
-let maior10 = numeros.filter(numero10 => numero10.length > 10);
+let maior10 = numeros.filter(numero10 => numero10 > 10);
 
 console.log(maior10);
